@@ -21,7 +21,7 @@ public class Main {
 
 
         // create a new object and calculate
-        MoistureContent a = new MoistureContent(Mc,Mcms, Mcds);
+        MoistureContent a = new MoistureContent(Mc, Mcms, Mcds);
         System.out.print("Result: \n");
         System.out.println("Material Wet Mass: "+ a.materialWetMass());
         System.out.println("Material Dry Mass: "+ a.materialDryMass());
