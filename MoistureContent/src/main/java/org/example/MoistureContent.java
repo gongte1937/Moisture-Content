@@ -15,7 +15,7 @@ public class MoistureContent {
 
     //the constructor
     public MoistureContent(float Mc, float Mcms, float Mcds){
-        this.tareMass=Mc;
+        this.tareMass= Mc;
         this.tareMaterialWetMass = Mcms;
         this.tareMaterialDryMass = Mcds;
     }
@@ -26,7 +26,6 @@ public class MoistureContent {
     }
 
     //Calculate the material dry mass
-
     public float materialDryMass(){
         return (tareMaterialDryMass-tareMass);
     }
